@@ -1,0 +1,88 @@
+.course .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course .box-container .box{
+    width:25rem;
+    border:10px solid rgba(1, 1, 1, 0.723);
+    position: relative;
+    margin:1.5rem;  
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: beige;
+}
+
+.course .box-container .box img{
+    height:20rem;
+    width: 25rem;
+    object-fit: fill;
+}
+
+.course .box-container .box .content{
+    padding:1rem;
+}
+
+.course .box-container .box .content .stars i{
+    color:#471ecf;
+    font-size: 1.7rem;
+    padding:1rem .1rem;
+}
+
+.course .box-container .box .content .title{
+    color:#444;
+    font-size: 2.1rem;
+}
+
+.course .box-container .box .content .title:hover{
+    text-decoration: underline;
+}
+
+.course .box-container .box .content p{
+    padding:1rem 0;
+    color:#666;
+    font-size: 1.5rem;
+}
+
+.course .box-container .box .content .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .5rem;
+    border-top: .1rem solid rgba(0,0,0,.3);
+}
+
+.course .box-container .box .content .info h3{
+    font-size: 1.5rem;
+    padding:1rem;
+    color:#666;
+}
+
+.course .box-container .box .content .info h3 i{
+    color:#722f25;
+}
+
+.course .box-container .box .price{
+    position: absolute;
+    top:16rem; right:1rem;
+    height:8rem;
+    width:8rem;
+    line-height: 8rem;
+    text-align: center;
+    border-radius: 50%;
+    background:var(--gradient);
+    color:#842626;
+    font-size: 3rem;
+}
+body{
+    background-color: #000;
+}
+h1{
+    color: #e63c22;
+    font-size: 4em;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}

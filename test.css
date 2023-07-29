@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #212f1e;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+h1{
+    color: red;
+    font-size: 3em;
+    font-weight: 600;
+}
+h4{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 4.5em;
+    font-weight: 800;
+    color: antiquewhite;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.box{
+    border: 5px solid gray;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 40px;
+    background: rgb(220, 215, 208);
+}
+.box h2{
+    font-size: 2em;
+    font-weight: 800;
+    font-style: italic;
+    color: brown;
+    padding-left: 20px;
+}
+.box p{
+    font-size: 1.3em;
+    font-weight: 200;
+    color: darkgreen;
+    padding-left: 20px;
+}
+.box button{
+    border-radius: 20px;
+    font-size: 1.7em;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+
+}
+.box button:hover{
+    background-color: rgb(94, 150, 49);
+    color: red;
+}
+.box button a{
+    text-decoration: none;
+    color:black;
+}
+.box button a:hover{
+    columns: red;
+}
+hr{
+    size: 6px;
+    margin-top: 100px;
+    margin-bottom: 105px;
+}

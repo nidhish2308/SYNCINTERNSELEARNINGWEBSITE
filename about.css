@@ -1,0 +1,111 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: black;
+}
+h1{
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+    
+}
+h1 span{
+    color: red;
+}
+p{
+    color: grey;
+    font-size: 1.9em;
+    text-align: justify;
+    font-weight: 200;
+    margin-left: 200px;
+    margin-right: 187px;
+}
+p span{
+    color: orange;
+}
+img{
+    height: 600px;
+    width: 75%;
+    margin-left: 200px;
+    margin-right: 80px;
+    align-items: center;
+}
+#partner{
+    display: flex;
+    margin-top: 130px;
+    border-top: 6px solid #333;
+}
+.partners{
+    height: 400px;
+    color: grey;
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.partners h4 span{
+    color: rgb(189, 111, 87);
+}
+.partners h2{
+    color: aqua;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.partners2{
+    height: 400px;
+    margin-top: 25px;
+}
+.partners2 img{
+    width: 450px;
+    height: 300px;
+}
+
+
+
+.footer {
+    padding: 65px 15% 10px;
+    margin-top: 65px;
+    border-top: 6px solid #333;
+    color: rgb(174, 173, 173);
+    margin-bottom: 40px;
+}
+
+.footer h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration-color: #5466cc;
+    color: blueviolet;
+    font-size: 1.8em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+    font-size: 0.8em;
+}
+
+.copyright {
+    font-size: 2.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: red;
+}
